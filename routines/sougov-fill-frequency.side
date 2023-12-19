@@ -1,0 +1,514 @@
+{
+  "id": "7b5c96f7-32ba-414b-a9ff-716cbe638b43",
+  "version": "2.0",
+  "name": "sougov-fill-frequency",
+  "url": "https://sougov.sigepe.gov.br/sougov/FichaFrequencia",
+  "tests": [{
+    "id": "7cb4f5ae-e16e-4fab-8538-6dcd92984c5b",
+    "name": "login-and-filling",
+    "commands": [{
+      "id": "75b717ee-07af-4d24-bf41-796faf1b201a",
+      "comment": "",
+      "command": "open",
+      "target": "/sougov/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "769addbb-a311-4ce4-ad01-ccec2bb3d5d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "870x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdc4a687-76ec-4b7a-86b7-6d61d7da3aeb",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnLogarGov",
+      "targets": [
+        ["id=btnLogarGov", "id"],
+        ["css=#btnLogarGov", "css:finder"],
+        ["xpath=//button[@id='btnLogarGov']", "xpath:attributes"],
+        ["xpath=//div[@id='b2-OnDesktop']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f2875c1-d1bc-40cd-8717-bf0521edaba8",
+      "comment": "",
+      "command": "type",
+      "target": "id=accountId",
+      "targets": [
+        ["id=accountId", "id"],
+        ["name=accountId", "name"],
+        ["css=#accountId", "css:finder"],
+        ["xpath=//input[@id='accountId']", "xpath:attributes"],
+        ["xpath=//div[@id='accordion-panel-id']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "090.185.964-85"
+    }, {
+      "id": "9633ff56-67da-498e-9c99-8ae8f8e7b4be",
+      "comment": "",
+      "command": "click",
+      "target": "id=accountId",
+      "targets": [
+        ["id=accountId", "id"],
+        ["name=accountId", "name"],
+        ["css=#accountId", "css:finder"],
+        ["xpath=//input[@id='accountId']", "xpath:attributes"],
+        ["xpath=//div[@id='accordion-panel-id']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8c78c1d-967e-4d6a-8d64-3564bb663e6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=enter-account-id",
+      "targets": [
+        ["id=enter-account-id", "id"],
+        ["name=operation", "name"],
+        ["css=#enter-account-id", "css:finder"],
+        ["xpath=//button[@id='enter-account-id']", "xpath:attributes"],
+        ["xpath=//div[@id='login-button-panel']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c6cf17-2ad8-4577-ae56-70969a84832e",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-password']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08239146-ee93-41f9-beeb-629844ca2eac",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-password']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Gytf65r54e$#W"
+    }, {
+      "id": "edce4efc-a824-480f-97a8-b3139f471e8e",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-button",
+      "targets": [
+        ["id=submit-button", "id"],
+        ["css=#submit-button", "css:finder"],
+        ["xpath=//button[@id='submit-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login-password']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd0dc33-7ac5-4360-815c-f2b84e18135e",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnLogarGov",
+      "targets": [
+        ["id=btnLogarGov", "id"],
+        ["css=#btnLogarGov", "css:finder"],
+        ["xpath=//button[@id='btnLogarGov']", "xpath:attributes"],
+        ["xpath=//div[@id='b2-OnDesktop']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81f7076b-eb7a-4b80-bc69-ac6da5f55c13",
+      "comment": "",
+      "command": "click",
+      "target": "css=#b11-l1-42_12-Saldo > .ThemeGrid_MarginGutter",
+      "targets": [
+        ["css=#b11-l1-42_12-Saldo > .ThemeGrid_MarginGutter", "css:finder"],
+        ["xpath=//div[@id='b11-l1-42_12-Saldo']/span", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div/div/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Saldo do Dia -08:00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e24acab-2269-4fa5-8f59-6e685355fae6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#b11-l1-42_12-\\$b5 .link-text",
+      "targets": [
+        ["css=#b11-l1-42_12-\\$b5 .link-text", "css:finder"],
+        ["xpath=//div[@id='b11-l1-42_12-$b5']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[13]/div/div/div[2]/div/div/div[3]/div[2]/div/div[2]/div/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae040c35-6f7e-4545-89ef-fbdd15f81c2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropOcorrencia",
+      "targets": [
+        ["id=dropOcorrencia", "id"],
+        ["css=#dropOcorrencia", "css:finder"],
+        ["xpath=//select[@id='dropOcorrencia']", "xpath:attributes"],
+        ["xpath=//div[@id='dropOcorrencia-container']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e242e3af-24aa-4039-8a8d-3528ecba11a2",
+      "comment": "",
+      "command": "select",
+      "target": "id=dropOcorrencia",
+      "targets": [],
+      "value": "label=389 - TELETRABALHO INTEGRAL - PROGRAMA DE GESTÃO"
+    }, {
+      "id": "e652ccf5-72d8-4022-aab8-f9a3f0bf6cae",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSalvar",
+      "targets": [
+        ["id=btnSalvar", "id"],
+        ["css=#btnSalvar", "css:finder"],
+        ["xpath=//button[@id='btnSalvar']", "xpath:attributes"],
+        ["xpath=//div[@id='Botoes']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2aff333-2091-4062-821c-e94ce0dfee07",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSalvar",
+      "targets": [
+        ["id=btnSalvar", "id"],
+        ["css=#btnSalvar", "css:finder"],
+        ["xpath=//button[@id='btnSalvar']", "xpath:attributes"],
+        ["xpath=//div[@id='Botoes']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb466ba5-6713-4494-b94e-55f53f09d03e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec0f13b0-8b50-424d-9cf8-a4c300d3fbbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=#b11-l1-439_13-Saldo > .ThemeGrid_MarginGutter",
+      "targets": [
+        ["css=#b11-l1-439_13-Saldo > .ThemeGrid_MarginGutter", "css:finder"],
+        ["xpath=//div[@id='b11-l1-439_13-Saldo']/span", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/div/div/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Saldo do Dia -08:00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1b283cc-bd9b-4bd2-8ded-39e267e1e013",
+      "comment": "",
+      "command": "click",
+      "target": "css=#b11-l1-439_13-\\$b5 .link-text",
+      "targets": [
+        ["css=#b11-l1-439_13-\\$b5 .link-text", "css:finder"],
+        ["xpath=//div[@id='b11-l1-439_13-$b5']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[14]/div/div/div[2]/div/div/div[3]/div[2]/div/div[2]/div/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01fea05f-3c3f-4a33-a19d-26057c49374f",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropOcorrencia",
+      "targets": [
+        ["id=dropOcorrencia", "id"],
+        ["css=#dropOcorrencia", "css:finder"],
+        ["xpath=//select[@id='dropOcorrencia']", "xpath:attributes"],
+        ["xpath=//div[@id='dropOcorrencia-container']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b481408-1a8f-443f-a579-59bc02569a58",
+      "comment": "",
+      "command": "select",
+      "target": "id=dropOcorrencia",
+      "targets": [],
+      "value": "label=389 - TELETRABALHO INTEGRAL - PROGRAMA DE GESTÃO"
+    }, {
+      "id": "c1ea2bac-7001-4d43-be5c-20e2c127e382",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSalvar",
+      "targets": [
+        ["id=btnSalvar", "id"],
+        ["css=#btnSalvar", "css:finder"],
+        ["xpath=//button[@id='btnSalvar']", "xpath:attributes"],
+        ["xpath=//div[@id='Botoes']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8dad346-975e-436a-8545-1c8977655ce4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSalvar",
+      "targets": [
+        ["id=btnSalvar", "id"],
+        ["css=#btnSalvar", "css:finder"],
+        ["xpath=//button[@id='btnSalvar']", "xpath:attributes"],
+        ["xpath=//div[@id='Botoes']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f9b774f-2a84-457c-a4ca-fb3ab3dc67af",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ef170ca2-8c4c-4a87-b2a8-df86658b1cfc",
+    "name": "login",
+    "commands": [{
+      "id": "b44e4eea-c163-4e9b-b930-ceec9779b971",
+      "comment": "",
+      "command": "open",
+      "target": "/sougov/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76367863-ff79-434b-8858-c56e97691161",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "870x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfd42afa-dfde-49c4-a7fe-10a25aa93884",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnLogarGov",
+      "targets": [
+        ["id=btnLogarGov", "id"],
+        ["css=#btnLogarGov", "css:finder"],
+        ["xpath=//button[@id='btnLogarGov']", "xpath:attributes"],
+        ["xpath=//div[@id='b2-OnDesktop']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d27678-a7cd-4fd4-adef-ab61a4ad6f81",
+      "comment": "",
+      "command": "type",
+      "target": "id=accountId",
+      "targets": [
+        ["id=accountId", "id"],
+        ["name=accountId", "name"],
+        ["css=#accountId", "css:finder"],
+        ["xpath=//input[@id='accountId']", "xpath:attributes"],
+        ["xpath=//div[@id='accordion-panel-id']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "090.185.964-85"
+    }, {
+      "id": "0f95aa4e-79a8-41c3-9eb9-49608352a865",
+      "comment": "",
+      "command": "click",
+      "target": "id=accountId",
+      "targets": [
+        ["id=accountId", "id"],
+        ["name=accountId", "name"],
+        ["css=#accountId", "css:finder"],
+        ["xpath=//input[@id='accountId']", "xpath:attributes"],
+        ["xpath=//div[@id='accordion-panel-id']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ff2c593-fb40-495f-9abe-00fcac5f9159",
+      "comment": "",
+      "command": "click",
+      "target": "id=enter-account-id",
+      "targets": [
+        ["id=enter-account-id", "id"],
+        ["name=operation", "name"],
+        ["css=#enter-account-id", "css:finder"],
+        ["xpath=//button[@id='enter-account-id']", "xpath:attributes"],
+        ["xpath=//div[@id='login-button-panel']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3b9942f-0dbe-4737-9c4b-1401f4061394",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-password']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a936330d-9a6c-413b-9c32-57e77fabb733",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-password']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Gytf65r54e$#W"
+    }, {
+      "id": "55b5146b-735e-4a1e-a8a0-dc755ff975f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-button",
+      "targets": [
+        ["id=submit-button", "id"],
+        ["css=#submit-button", "css:finder"],
+        ["xpath=//button[@id='submit-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login-password']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "39643fa2-f80b-4375-848f-a751e0865f3f",
+    "name": "filling",
+    "commands": [{
+      "id": "42e9446f-c2f7-4530-a6e6-7718f77e5cca",
+      "comment": "",
+      "command": "open",
+      "target": "https://sougov.sigepe.gov.br/sougov/FichaFrequencia",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14ed7776-9e35-4740-80cb-85059b71b30c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "871x820",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc488f08-14e1-496d-98e9-da2607a0ec6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#b11-l1-59_14-Saldo > .ThemeGrid_MarginGutter",
+      "targets": [
+        ["css=#b11-l1-59_14-Saldo > .ThemeGrid_MarginGutter", "css:finder"],
+        ["xpath=//div[@id='b11-l1-59_14-Saldo']/span", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div/div/div/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Saldo do Dia -08:00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffc8ab39-40b6-42e9-a05e-3b0eb1ff0fb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#b11-l1-59_14-\\$b5 .link-text",
+      "targets": [
+        ["css=#b11-l1-59_14-\\$b5 .link-text", "css:finder"],
+        ["xpath=//div[@id='b11-l1-59_14-$b5']/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[15]/div/div/div[2]/div/div/div[3]/div[2]/div/div[2]/div/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9af4fe11-a979-4a0f-bc6f-f4b17f1bcb47",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropOcorrencia",
+      "targets": [
+        ["id=dropOcorrencia", "id"],
+        ["css=#dropOcorrencia", "css:finder"],
+        ["xpath=//select[@id='dropOcorrencia']", "xpath:attributes"],
+        ["xpath=//div[@id='dropOcorrencia-container']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af9c69ee-5b3c-4508-a4dc-e57ab3f88e6a",
+      "comment": "",
+      "command": "select",
+      "target": "id=dropOcorrencia",
+      "targets": [],
+      "value": "label=389 - TELETRABALHO INTEGRAL - PROGRAMA DE GESTÃO"
+    }, {
+      "id": "0ee03548-9862-4be3-9b63-b1757fb249e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSalvar",
+      "targets": [
+        ["id=btnSalvar", "id"],
+        ["css=#btnSalvar", "css:finder"],
+        ["xpath=//button[@id='btnSalvar']", "xpath:attributes"],
+        ["xpath=//div[@id='Botoes']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "689435c8-a2a3-4464-ad65-192bb603807e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSalvar",
+      "targets": [
+        ["id=btnSalvar", "id"],
+        ["css=#btnSalvar", "css:finder"],
+        ["xpath=//button[@id='btnSalvar']", "xpath:attributes"],
+        ["xpath=//div[@id='Botoes']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5669051-6437-450f-b77a-65b1f800a44d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0c514c34-bf2f-4b7d-bc89-2d288eac2ac0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://sougov.sigepe.gov.br/"],
+  "plugins": []
+}
