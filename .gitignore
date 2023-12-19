@@ -1,1 +1,2 @@
-/private-data/*
+/userdata/userdata.py
+__pycache__
